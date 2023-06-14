@@ -145,3 +145,8 @@ input:invalid {
     border: none;
     outline: 1px solid red;
 }
+
+.right-login > p > a {
+    color: #596D48;
+    text-decoration: none;
+}
