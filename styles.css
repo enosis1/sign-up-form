@@ -1,0 +1,88 @@
+html,
+body {
+    background-color: whitesmoke;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url("images/green_leaf.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 37vw;
+    flex-shrink: 0;
+}
+
+.label {
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    padding: 10px;
+    position: relative;
+    top: 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+.label>h1,
+.odin-lined {
+    color: white;
+    font-size: 100px;
+    font-family: "Norse-Bold", Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.odin-lined {
+    width: 20%;
+}
+
+.left-footer {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    padding-bottom: 15px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.right-text,
+.information,
+.form-button,
+.right-login {
+    padding-left: 3vh;
+}
+
+.information {
+    background-color: white;
+}
+
+.right-text {
+    font-size: 30px;
+    padding-right: 200px;
+}
+
+.information {
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+.form-information {
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    flex-grow: 1;
+}
